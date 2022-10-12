@@ -210,6 +210,10 @@ header {
     color: deeppink;
 }
 
+#content-title a:hover {
+    color: #0085FF;
+}
+
 .home-group .home-group-news .top-image img {
     width: 350px;   
     height: 233px;

@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: max-content;
+}
+
+/* HEADER AND NAV MENU */
+
+header {
+    height: 300px;
+}
+
+.nav-menu {
+    background-color: #0085FF;
+    margin: 0;
+    width: 1000px;
+}
+
+.nav-menu nav {
+    text-align: center;
+    line-height: 35px;
+}
+
+.nav-menu ul.menu {
+    display: flex;
+}
+
+.nav-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    width: 200px;
+}
+
+.nav-menu a:hover {
+    background-color: deeppink;
+}
+
+.sub-menu {
+    position: absolute;
+    width: inherit;
+    list-style: none;
+    background-color: hotpink;
+    display: none;
+}
+
+.sub-menu a {
+    color: white;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sub-menu li a:hover {
+    background-color: #0085FF;
+}
+
+.menu li:hover .sub-menu {
+    display: block;
+}
+
+.menu li .sub-menu li {
+    display: block;
+}
+
+.sub-menu li:hover {
+    background-color: #0085FF;
+}
+
+/* CONTENT */
+
+.wrap-content {
+    width: 1000px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-top: none;
+    box-shadow: 1px 1px gray;
+    margin: 15px 0;
+    padding: 0 0 15px 0;
+}
+
+.title {
+    float: left;
+    margin-left: 0;
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    color:  white;
+    font-weight: bold;
+    font-size: larger;
+    padding-left: 30px;
+    background: radial-gradient(859px at 7.5% 18%, rgb(234, 6, 185) 4.2%, rgb(251, 179, 8) 92.7%);
+}
+
+span {
+    float: right;
+    font-size: large;
+    line-height: 40px;
+    height: 40px;
+    color: white;
+    padding-right: 20px;
+}
+
+.text {
+    clear: both;
+    padding: 15px;
+    width: 900px;
+    text-align: justify;
+    font-size: larger;
+    line-height: 40px;
+}
+
+.text h3 {
+    font-size: xx-large;
+    color: deeppink;
+    padding: 10px 0 5px 0;
+}
+
+/* FORM */
+
+.wrap-form {
+    padding: 5px 15px 10px 15px;
+    width: 800px;
+}
+
+.form {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    border-top: none;
+}
+
+.form-group {
+    position: relative;
+    padding: 10px 0 10px 25px;
+}
+
+.form-group label {
+    font-weight: 500;
+    font-size: large;
+}
+
+.form-control {
+    height: 30px;
+    width: 400px;
+    position: absolute;
+    left: 150px;
+}
+
+.form-group textarea {
+    width: 400px;
+    height: 90px;
+}
+
+.form-button {
+    margin-top: 50px;
+    padding: 20px 0 10px 150px;
+}
+
+.form-btn {
+    padding: 8px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: deeppink;
+    color: white;
+}
+
+.form-btn:hover {
+    background-color: #0085FF;
+}
+
+/* FOOTER */
+
+.wrap-footer {
+    clear: both;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #0085FF;
+    border-radius: 5px 5px 10px 10px;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
